@@ -1,0 +1,23 @@
+body {
+  background-color: #d8d8d8;
+  margin: 0;
+}
+.message {
+  width: 100%;
+  height: 100vh;
+  font-size: 5rem;
+  text-shadow: 5px 5px 1 px #999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 以下ベンダープレフィックス */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-contert: center;
+}
